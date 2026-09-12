@@ -12,7 +12,7 @@ Start:
 - ADMIN_ID
 - GITHUB_TOKEN
 - GITHUB_OWNER = pjankushkumar-cmd
-- GITHUB_REPO = bypasshackiibot
+- GITHUB_REPO = Advancerequestbot
 - GITHUB_FILE = members.json
 - GITHUB_STATE_FILE = bot_state.json
 
