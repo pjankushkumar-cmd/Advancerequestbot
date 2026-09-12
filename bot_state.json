@@ -11,7 +11,7 @@
     "api_enabled": "ON",
     "api_url": "https://moccasin-woodpecker-900030.hostingersite.com/",
     "request_start_payload": "Click",
-    "request_button_action": "NONE"
+    "request_button_action": "START"
   },
   "request_messages": [
     [
