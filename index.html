@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Latest WinGo</title>
+<style>
+html,body{margin:0;padding:0;background:#fff;font-family:Arial,sans-serif}
+#latest{padding:10px;font-size:18px;color:#000;font-weight:bold}
+</style>
+</head>
+<body>
+<div id="latest"></div>
+<script>
+"use strict";
+
+const box=document.getElementById("latest");
+
+async function loadLatest(){
+    try{
+        const response=await fetch("/api/latest",{
+            method:"GET",
+            cache:"no-store",
+            headers:{"Accept":"application/json"}
+        });
+
+        const data=await response.json();
+
+        if(!response.ok || !data.ok || !data.issue){
+            return;
+        }
+
+        box.textContent=data.issue;
+    }catch(error){
+        console.log("Latest issue load failed:",error);
+    }
+}
+
+loadLatest();
+setInterval(loadLatest,1000);
+</script>
+</body>
+</html>
