@@ -12,7 +12,7 @@
     "request_button_text": "𝗖𝗹𝗶𝗰𝗸 𝗞𝗮𝗿𝗼 𝟭 𝗕𝗲𝘁 𝗠𝗶𝗹𝗲𝗴𝗮 ✅",
     "request_start_payload": "Click",
     "request_button_action": "START",
-    "api_enabled": "OFF"
+    "api_enabled": "ON"
   },
   "request_messages": [
     [
