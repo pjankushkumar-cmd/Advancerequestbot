@@ -4,7 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Latest Issue</title>
-<style>html,body{margin:0;padding:0;background:#fff;font-family:Arial,sans-serif}#latest{padding:12px;font-size:20px;font-weight:700;color:#000}</style>
+<style>
+html,body{margin:0;padding:0;background:#fff;font-family:Arial,sans-serif}
+#latest{padding:10px;font-size:18px;font-weight:700;color:#000}
+</style>
 </head>
 <body>
 <div id="latest"></div>
@@ -12,11 +15,15 @@
 async function load(){
   try{
     const r=await fetch('/api/latest?t='+Date.now(),{cache:'no-store'});
+    if(!r.ok)return;
     const d=await r.json();
-    document.getElementById('latest').textContent=d.issue||'';
-  }catch(e){console.log(e)}
+    if(d && d.issue!==null && d.issue!==undefined){
+      document.getElementById('latest').textContent=String(d.issue);
+    }
+  }catch(e){}
 }
-load();setInterval(load,1000);
+load();
+setInterval(load,3000);
 </script>
 </body>
 </html>
