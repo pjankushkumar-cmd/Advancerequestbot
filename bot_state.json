@@ -1,6 +1,7 @@
 {
   "version": 4,
   "settings": {
+    "request_start_payload": "",
     "auto_accept": "OFF",
     "approval_button": "Click Yes",
     "api_json_path": "",
