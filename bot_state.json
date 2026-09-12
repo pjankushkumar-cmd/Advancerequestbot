@@ -13,7 +13,12 @@
     "request_start_payload": "Click",
     "request_button_action": "NONE"
   },
-  "request_messages": [],
+  "request_messages": [
+    [
+      "8767998937",
+      "522"
+    ]
+  ],
   "start_messages": [
     [
       "8767998937",
