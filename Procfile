@@ -1,1 +1,1 @@
-web: python hackiirequestbot_PRO_UPDATED.py
+worker: python bot.py
