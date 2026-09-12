@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: telegram-pro-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python hackiirequestbot_PRO_FINAL.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_ID
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: GITHUB_OWNER
+        value: pjankushkumar-cmd
+      - key: GITHUB_REPO
+        value: bypasshackiibot
+      - key: GITHUB_FILE
+        value: members.json
+      - key: GITHUB_STATE_FILE
+        value: bot_state.json

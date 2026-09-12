@@ -1,0 +1,19 @@
+A-Z QUICK SETUP
+
+1. Upload all files to the GitHub repository root.
+2. Render -> New Web Service.
+3. Build Command:
+   pip install -r requirements.txt
+4. Start Command:
+   python hackiirequestbot_PRO_FINAL.py
+5. Add all environment variables from README.md.
+6. Deploy.
+7. Open the bot and use the admin panel.
+
+API settings:
+API URL -> full JSON API URL
+JSON Path -> example data.0.number
+Template -> example Period: {value}
+After N -> 0 for immediately after Start, or an exact Start message count.
+
+Do not put GitHub tokens or BOT_TOKEN into source files.
