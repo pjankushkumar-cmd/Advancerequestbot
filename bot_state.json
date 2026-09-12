@@ -2,7 +2,6 @@
   "version": 4,
   "settings": {
     "auto_accept": "OFF",
-    "request_button_action": "START",
     "start_final_id": "",
     "approval_button": "Click Yes",
     "api_enabled": "OFF",
@@ -10,7 +9,8 @@
     "api_json_path": "",
     "api_template": "Latest: {value}",
     "api_after_count": "0",
-    "request_button_text": "𝗖𝗹𝗶𝗰𝗸 𝗞𝗮𝗿𝗼 𝟭 𝗕𝗲𝘁 𝗠𝗶𝗹𝗲𝗴𝗮"
+    "request_button_text": "𝗖𝗹𝗶𝗰𝗸 𝗞𝗮𝗿𝗼 𝟭 𝗕𝗲𝘁 𝗠𝗶𝗹𝗲𝗴𝗮",
+    "request_button_action": "NONE"
   },
   "request_messages": [],
   "start_messages": [],
