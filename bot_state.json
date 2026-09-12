@@ -8,11 +8,11 @@
     "api_after_count": "0",
     "start_final_id": "1",
     "api_template": "EARN WITH HACKII NUNBER BET\n\n✔️PERIOD⬇️  {}\n\nBET NOW ⏩ ID BANAKAR UID BHEJO BAD DIKH JAYEGI\n\n🤑100% VERIFIED BETS",
-    "api_enabled": "ON",
     "api_url": "https://moccasin-woodpecker-900030.hostingersite.com/",
     "request_button_text": "𝗖𝗹𝗶𝗰𝗸 𝗞𝗮𝗿𝗼 𝟭 𝗕𝗲𝘁 𝗠𝗶𝗹𝗲𝗴𝗮 ✅",
     "request_start_payload": "Click",
-    "request_button_action": "START"
+    "request_button_action": "START",
+    "api_enabled": "OFF"
   },
   "request_messages": [
     [
