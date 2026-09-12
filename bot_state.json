@@ -12,7 +12,12 @@
     "request_button_text": "𝗖𝗹𝗶𝗰𝗸 𝗞𝗮𝗿𝗼 𝟭 𝗕𝗲𝘁 𝗠𝗶𝗹𝗲𝗴𝗮",
     "request_button_action": "NONE"
   },
-  "request_messages": [],
+  "request_messages": [
+    [
+      "8767998937",
+      "389"
+    ]
+  ],
   "start_messages": [],
   "approval_message": null
 }
