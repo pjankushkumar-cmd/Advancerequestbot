@@ -9,10 +9,10 @@
     "request_button_payload": "get",
     "auto_accept": "OFF",
     "approval_button": "Click Yes",
-    "start_final_id": "1",
     "request_button_text": "𝗖𝗹𝗶𝗰𝗸 𝗞𝗮𝗿𝗼 𝟭 𝗕𝗲𝘁 𝗠𝗶𝗹𝗲𝗴𝗮 ✅",
     "request_button_action": "START",
-    "reply_header": "."
+    "reply_header": ".",
+    "start_final_id": "5"
   },
   "request_messages": [
     [
