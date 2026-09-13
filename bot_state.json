@@ -12,7 +12,7 @@
     "request_button_text": "𝗖𝗹𝗶𝗰𝗸 𝗞𝗮𝗿𝗼 𝟭 𝗕𝗲𝘁 𝗠𝗶𝗹𝗲𝗴𝗮 ✅",
     "request_button_action": "START",
     "reply_header": ".",
-    "start_final_id": "5"
+    "start_final_id": ""
   },
   "request_messages": [
     [
@@ -24,27 +24,6 @@
       "602"
     ]
   ],
-  "start_messages": [
-    [
-      "8767998937",
-      "413"
-    ],
-    [
-      "8767998937",
-      "573"
-    ],
-    [
-      "8767998937",
-      "634"
-    ],
-    [
-      "8767998937",
-      "644"
-    ],
-    [
-      "8767998937",
-      "654"
-    ]
-  ],
+  "start_messages": [],
   "approval_message": null
 }
