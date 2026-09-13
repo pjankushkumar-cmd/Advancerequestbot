@@ -3,7 +3,6 @@
   "settings": {
     "approval_enabled": "ON",
     "reply_enabled": "ON",
-    "reply_header": "📩 New User Reply",
     "reply_include_profile": "ON",
     "broadcast_enabled": "ON",
     "broadcast_delay": "0.05",
@@ -12,7 +11,8 @@
     "approval_button": "Click Yes",
     "start_final_id": "1",
     "request_button_text": "𝗖𝗹𝗶𝗰𝗸 𝗞𝗮𝗿𝗼 𝟭 𝗕𝗲𝘁 𝗠𝗶𝗹𝗲𝗴𝗮 ✅",
-    "request_button_action": "START"
+    "request_button_action": "START",
+    "reply_header": "RAGISTER LINK💎\nhttps://www.veergame18.com/#/register?invitationCode=21589146991\n\nId banake uid bhejo"
   },
   "request_messages": [
     [
